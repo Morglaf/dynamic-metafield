@@ -1,0 +1,12 @@
+.dmf-loop__label {
+	margin: 0 0 0.75rem;
+	font-size: 12px;
+	font-weight: 600;
+	opacity: 0.75;
+}
+
+.wp-block-dynamic-metafield-loop {
+	border: 1px dashed #949494;
+	padding: 1rem;
+	border-radius: 2px;
+}

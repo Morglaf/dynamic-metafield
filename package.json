@@ -1,0 +1,17 @@
+{
+	"name": "dynamic-metafield",
+	"version": "1.0.0",
+	"description": "Liaison dynamique Gutenberg ↔ Secure Custom Fields",
+	"author": "DAI",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0"
+	}
+}

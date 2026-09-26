@@ -1,0 +1,50 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "dynamic-metafield/loop",
+	"title": "SCF Field Loop",
+	"category": "theme",
+	"icon": "update",
+	"description": "Boucle sur un champ Repeater ou Flexible Content SCF et affiche les blocs enfants pour chaque ligne.",
+	"keywords": ["scf", "acf", "repeater", "flexible", "loop", "metafield"],
+	"textdomain": "dynamic-metafield",
+	"attributes": {
+		"field": {
+			"type": "string",
+			"default": ""
+		},
+		"context": {
+			"type": "string",
+			"default": "post"
+		},
+		"layout": {
+			"type": "string",
+			"default": ""
+		},
+		"userId": {
+			"type": "number",
+			"default": 0
+		},
+		"termId": {
+			"type": "number",
+			"default": 0
+		},
+		"taxonomy": {
+			"type": "string",
+			"default": ""
+		},
+		"tagName": {
+			"type": "string",
+			"default": "div"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"usesContext": ["postId", "postType", "termId", "taxonomy"]
+}
